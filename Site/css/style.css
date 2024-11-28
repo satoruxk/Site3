@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat';
+}
+
+body {
+	margin: 0;
+    padding: 0;
+    background-image: url(../images/capa.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font: Montserrat;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+header ul, header li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+	background: #fff;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Ocupa a altura total da viewport */
+    background-size: cover; /* Faz com que a imagem cubra todo o container */
+    background-position: center; /* Centraliza a imagem no container */
+}
+
+.text {
+    color: white; /* Cor do texto */
+    font-size: 4rem; /* Tamanho da fonte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra do texto para melhor legibilidade */
+}
+
+.topo nav {
+    margin: 0;
+}
+
+.topo a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 30px;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    z-index: 1000;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    height: 80px; /* Ajuste a altura fixa conforme necessário */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
